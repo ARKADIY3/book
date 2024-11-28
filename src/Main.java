@@ -8,13 +8,13 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
 
-
         Book book1 = new Book("Автор :", "Название книги :", "Издатель :", "Год :", "Страна :","Раздел библеотеки :");
 
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Введите число \n 1 создание файла \n 2 запесь данных в файл \n 3 чтение файла \n 4 удоление файла");
+
         int a = scanner.nextInt();
-
-
 
         Scanner input = new Scanner(System.in);
 
